@@ -1,0 +1,28 @@
+body {  
+    margin: 0;
+    background-size: cover;
+    background-attachment: fixed;
+}
+* {
+    box-sizing: border-box;
+}
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 650px;
+        margin-top: 30px;
+        border-radius: 2%;
+    }
+}
+.contenedor{
+    width: 100%;
+    padding: 15px;
+}
+.formulario{
+    width: 100;
+    background : #fff;
+    margin-top: 20px;
+    padding: 3px;
+    border: 1px solid #E1E1E1;
+}

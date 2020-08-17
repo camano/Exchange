@@ -1,0 +1,32 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2/12/2019, 10:06:31 AM
+    Author     : Sena
+*/
+
+#preview{
+    width: 171px;
+    margen:0 auto;
+    margin-bottom: 10px;
+    position: relative;
+}
+#preview a{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    display: nome;
+}
+#file-info{
+    display: block;
+}
+input[type=file]{
+    position: absolute;
+    visibility: hidden;
+    width: 0;
+    z-index: -999;
+}
